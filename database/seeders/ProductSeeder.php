@@ -23,6 +23,7 @@ class ProductSeeder extends Seeder
                 'name' => $productData['title'],
                 'description' => $productData['description'],
                 'price' => $productData['price'],
+                'image' => $productData['image']
             ]);
         }
     }

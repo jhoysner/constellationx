@@ -5,7 +5,11 @@
     <div class="row justify-content-center">
         <div class="col-md-4">
             <div class="card">
-                <div class="card-header">{{ __('Registered Users') }}</div>
+                <div class="card-header">{{ __('Registered Users') }}
+
+
+                    <a href="/load-users" class="btn btn-primary">Load Users</a>
+                </div>
 
                 <div class="card-body">
                     <ul class="list-group">

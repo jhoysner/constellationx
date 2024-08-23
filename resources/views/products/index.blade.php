@@ -13,6 +13,7 @@
                 <tr>
                     <th scope="col">#</th>
                     <th scope="col">Name</th>
+                    <th scope="col">Image</th>
                     <th scope="col">Description</th>
                     <th scope="col">Price</th>
                     <th scope="col">Actions</th>
@@ -23,6 +24,7 @@
                     <tr>
                         <th scope="row">{{ $product->id }}</th>
                         <td>{{ $product->name }}</td>
+                        <td><img src="{{$product->image}}" style="width: 50px;"></td>
                         <td>{{ $product->description }}</td>
                         <td>{{ $product->price }}</td>
                         <td class="d-flex">
